@@ -1,0 +1,90 @@
+/* ====== GLOBAL ====== */
+.login-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: url('../images/bglogin.jpeg') center/cover no-repeat;
+  position: relative;
+}
+
+
+.login-left {
+  width: 50%;
+  backdrop-filter: brightness(80%);
+}
+
+.logo-text {
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+
+.login-right {
+  width: 50%;
+}
+
+/* ====== LOGIN CARD ====== */
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  background: rgba(255, 255, 255, 0.25);   /* transparan */
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+/* LABELS */
+.form-label {
+  color: #fff;
+}
+
+/* INPUTS */
+.custom-input {
+  height: 45px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.7);
+  border: none;
+}
+
+
+.eye-btn {
+  background: rgba(255,255,255,0.7);
+  border: none;
+}
+
+/* LOGIN BUTTON */
+.login-btn {
+  height: 45px;
+  background: #1d7ff1; 
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.login-btn:hover {
+  background: #0d6ce0;
+}
+
+
+.login-card p,
+.login-card h2,
+.login-card label {
+  color: #fff !important;
+}
+
+
+@media(max-width: 992px) {
+  .login-left {
+    display: none;
+  }
+  .login-right {
+    width: 100%;
+  }
+}
+
+footer {
+  font-size: 0.9rem;
+  background: #000000;
+  color: #ffffff;
+}

@@ -1,0 +1,97 @@
+/* ====== GLOBAL ====== */
+.register-page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: url('../images/bgregist.jpeg') center/cover no-repeat;
+}
+
+
+.register-left {
+  width: 50%;
+}
+
+
+.register-right {
+  width: 50%;
+  backdrop-filter: brightness(80%);
+}
+
+
+.logo-text {
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+
+.register-card {
+  width: 100%;
+  max-width: 330px;              
+  padding: 14px;                 
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+/* LABELS */
+.form-label {
+  color: #fff;
+}
+
+/* INPUTS */
+.custom-input {
+  height: 38px;                   
+  border-radius: 8px;
+  background: rgba(255,255,255,0.7);
+  border: none;
+  padding: 6px 10px;              
+}
+
+
+.eye-btn {
+  background: rgba(255,255,255,0.7);
+  border: none;
+  height: 38px;                   
+}
+
+/* BUTTON */
+.register-btn {
+  background: #1d7ff1;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 0;                 
+  margin-top: 10px;               
+}
+
+.register-btn:hover {
+  background: #0d6ce0;
+}
+
+.register-card p,
+.register-card h2,
+.register-card label {
+  color: #fff !important;
+}
+
+
+.mb-3, .mb-4 {
+  margin-bottom: 8px !important;    
+}
+
+/* RESPONSIVE */
+@media(max-width: 992px) {
+  .register-right {
+    display: none;
+  }
+  .register-left {
+    width: 100%;
+  }
+}
+
+footer {
+  font-size: 0.9rem;
+  background: #000000;
+  color: #ffffff;
+}
