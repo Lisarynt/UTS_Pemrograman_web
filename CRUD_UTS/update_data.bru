@@ -1,0 +1,25 @@
+meta {
+  name: update_data
+  type: http
+  seq: 3
+}
+
+post {
+  url: localhost/cruduts/flow/insup_data.php
+  body: multipartForm
+  auth: inherit
+}
+
+body:multipart-form {
+  lks: Bromo
+  rtg: 10
+  dsc: Gunung Bromo adalah salah satu destinasi wisata alam paling ikonik di Jawa Timur, Indonesia.
+  hrg: 12000000
+  filephoto: @file(C:\Users\lisaa\Downloads\bromo.jpeg)
+  id: 1
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

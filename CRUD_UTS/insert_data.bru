@@ -1,0 +1,24 @@
+meta {
+  name: insert_data
+  type: http
+  seq: 4
+}
+
+post {
+  url: localhost/cruduts/flow/insup_data.php
+  body: multipartForm
+  auth: inherit
+}
+
+body:multipart-form {
+  lks: Candi Borobudur
+  rtg: 7
+  dsc: Candi Borobudur adalah salah satu warisan budaya dunia yang terletak di Jawa Tengah Indonesia.
+  hrg: 2000000
+  filephoto: @file(C:\Users\lisaa\Downloads\borobudur.jpeg)
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
